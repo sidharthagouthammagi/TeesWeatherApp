@@ -1,4 +1,4 @@
-package uk.ac.tees.w93541873.teesweather
+package uk.ac.tees.w9354187.teesweatherapp
 
 import org.junit.Test
 

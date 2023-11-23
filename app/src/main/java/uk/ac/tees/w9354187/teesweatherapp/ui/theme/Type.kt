@@ -1,4 +1,4 @@
-package uk.ac.tees.w93541873.teesweather.ui.theme
+package uk.ac.tees.w9354187.teesweatherapp.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

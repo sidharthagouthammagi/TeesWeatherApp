@@ -1,4 +1,4 @@
-package uk.ac.tees.w93541873.teesweather
+package uk.ac.tees.w9354187.teesweatherapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,13 +10,13 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import uk.ac.tees.w93541873.teesweather.ui.theme.TeesWeatherTheme
+import uk.ac.tees.w9354187.teesweatherapp.ui.theme.TeesWeatherAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            TeesWeatherTheme {
+            TeesWeatherAppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -40,7 +40,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    TeesWeatherTheme {
+    TeesWeatherAppTheme {
         Greeting("Android")
     }
 }

@@ -1,4 +1,4 @@
-package uk.ac.tees.w93541873.teesweather.ui.theme
+package uk.ac.tees.w9354187.teesweatherapp.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun TeesWeatherTheme(
+fun TeesWeatherAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

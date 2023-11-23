@@ -1,4 +1,4 @@
-package uk.ac.tees.w93541873.teesweather
+package uk.ac.tees.w9354187.teesweatherapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("uk.ac.tees.w93541873.teesweather", appContext.packageName)
+        assertEquals("uk.ac.tees.w9354187.teesweatherapp", appContext.packageName)
     }
 }
