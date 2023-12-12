@@ -1,16 +1,22 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+
 plugins {
+    kotlin("kapt")
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("com.google.dagger.hilt.android")
+    id("com.google.devtools.ksp")
 }
 
 android {
     namespace = "uk.ac.tees.w9354187.teesweatherapp"
-    compileSdk = 33
+    compileSdk = libs.versions.compileSdk.get().toInt()
 
     defaultConfig {
         applicationId = "uk.ac.tees.w9354187.teesweatherapp"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = libs.versions.minSdk.get().toInt()
+        targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1
         versionName = "1.0"
 
@@ -18,52 +24,98 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-    }
 
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+        val key = gradleLocalProperties(rootDir).getProperty("API_KEY") ?: ""
+        buildConfigField("String", "API_KEY", "\"$key\"")
+
+        ksp {
+            arg("room.schemaLocation", "$projectDir/schemas")
+        }
+
+        buildTypes {
+            getByName("release") {
+                isMinifyEnabled = false
+                proguardFiles(
+                    getDefaultProguardFile("proguard-android-optimize.txt"),
+                    "proguard-rules.pro"
+                )
+            }
+        }
+
+        compileOptions {
+            sourceCompatibility = JavaVersion.VERSION_17
+            targetCompatibility = JavaVersion.VERSION_17
+        }
+
+        buildFeatures {
+            compose = true
+        }
+
+        composeOptions {
+            kotlinCompilerExtensionVersion = libs.versions.compose.compiler.get()
+        }
+
+        packaging {
+            resources {
+                excludes.add("/META-INF/{AL2.0,LGPL2.1}")
+            }
+        }
+
+        kapt {
+            correctErrorTypes = true
         }
     }
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
-    buildFeatures {
-        compose = true
-    }
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.4.3"
-    }
-    packaging {
-        resources {
-            excludes += "/META-INF/{AL2.0,LGPL2.1}"
-        }
-    }
-}
 
-dependencies {
+    dependencies {
 
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
-    implementation("androidx.activity:activity-compose:1.8.1")
-    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.ui:ui-graphics")
-    implementation("androidx.compose.ui:ui-tooling-preview")
-    implementation("androidx.compose.material3:material3")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    androidTestImplementation(platform("androidx.compose:compose-bom:2023.03.00"))
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4")
-    debugImplementation("androidx.compose.ui:ui-tooling")
-    debugImplementation("androidx.compose.ui:ui-test-manifest")
+        val composeBom = platform(libs.androidx.compose.bom)
+        implementation(composeBom)
+        androidTestImplementation(composeBom)
+
+        implementation(libs.androidx.core.ktx)
+        implementation(libs.androidx.lifecycle.runtime.ktx)
+        implementation(libs.androidx.activity.compose)
+        implementation(libs.androidx.compose.ui)
+        implementation(libs.androidx.compose.ui.tooling.preview)
+        implementation(libs.androidx.compose.material3)
+        testImplementation(libs.junit)
+        testImplementation(libs.kotlinx.coroutines.test)
+        androidTestImplementation(libs.androidx.test.ext.junit)
+        androidTestImplementation(libs.androidx.test.espresso.espresso.core)
+        androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+        debugImplementation(libs.androidx.compose.ui.tooling)
+        debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+        //Lifecycle
+        implementation(libs.androidx.lifecycle.viewmodel.compose)
+        implementation(libs.androidx.lifecycle.runtime.compose)
+
+        //DataStore
+        implementation(libs.androidx.datastore.preferences)
+
+        //Navigation
+        implementation(libs.androidx.navigation.compose)
+        implementation(libs.androidx.hilt.navigation.compose)
+
+        //Room
+        implementation(libs.androidx.room.runtime)
+        implementation(libs.androidx.room.ktx)
+        ksp(libs.androidx.room.compiler)
+
+        //Hilt
+        implementation(libs.hilt.android)
+        kapt(libs.hilt.compiler)
+
+        //Retrofit
+        implementation(libs.retrofit)
+        implementation(libs.converter.moshi)
+        implementation(libs.okhttp.logging.interceptor)
+        implementation(libs.okhttp.mockwebserver)
+
+        //Location Service
+        implementation(libs.play.services.location)
+
+        //Lottie
+        implementation(libs.lottie.compose)
+    }
 }
