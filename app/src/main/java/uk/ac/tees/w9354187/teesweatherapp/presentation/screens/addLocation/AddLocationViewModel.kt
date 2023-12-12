@@ -1,13 +1,13 @@
-package com.anshtya.weatherapp.presentation.screens.addLocation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.addLocation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.anshtya.weatherapp.domain.connectivity.NetworkConnectionObserver
-import com.anshtya.weatherapp.domain.connectivity.NetworkStatus
-import com.anshtya.weatherapp.domain.location.LocationTracker
-import com.anshtya.weatherapp.domain.model.SearchLocation
-import com.anshtya.weatherapp.domain.repository.WeatherRepository
-import com.anshtya.weatherapp.util.Resource
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkConnectionObserver
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkStatus
+import uk.ac.tees.w9354187.teesweatherapp.domain.location.LocationTracker
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SearchLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.WeatherRepository
+import uk.ac.tees.w9354187.teesweatherapp.util.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.flow.MutableSharedFlow

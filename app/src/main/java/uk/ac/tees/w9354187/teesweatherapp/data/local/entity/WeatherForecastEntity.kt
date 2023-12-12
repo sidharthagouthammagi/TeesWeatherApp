@@ -1,13 +1,13 @@
-package com.anshtya.weatherapp.data.local.entity
+package uk.ac.tees.w9354187.teesweatherapp.data.local.entity
 
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import com.anshtya.weatherapp.domain.model.Astro
-import com.anshtya.weatherapp.domain.model.Day
-import com.anshtya.weatherapp.data.local.model.HourModel
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Astro
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Day
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.HourModel
 
 @Entity(
     tableName = "weather_forecast",

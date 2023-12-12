@@ -1,9 +1,9 @@
-package com.anshtya.weatherapp.data.remote
+package uk.ac.tees.w9354187.teesweatherapp.data.remote
 
-import com.anshtya.weatherapp.BuildConfig
-import com.anshtya.weatherapp.data.remote.model.NetworkSearchLocation
-import com.anshtya.weatherapp.data.remote.model.NetworkWeatherResponse
-import com.anshtya.weatherapp.util.Constants.Companion.FORECAST_DAYS
+import uk.ac.tees.w9354187.teesweatherapp.BuildConfig
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkSearchLocation
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkWeatherResponse
+import uk.ac.tees.w9354187.teesweatherapp.util.Constants.Companion.FORECAST_DAYS
 import retrofit2.http.GET
 import retrofit2.http.Query
 

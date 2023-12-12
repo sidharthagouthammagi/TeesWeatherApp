@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.domain.location
+package uk.ac.tees.w9354187.teesweatherapp.domain.location
 
 import android.location.Location
 

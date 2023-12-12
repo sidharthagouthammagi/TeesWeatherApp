@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.manageLocation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.manageLocation
 
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
@@ -29,10 +29,10 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.anshtya.weatherapp.R
-import com.anshtya.weatherapp.domain.model.SavedLocation
-import com.anshtya.weatherapp.presentation.components.ManageLocationTopAppBar
-import com.anshtya.weatherapp.presentation.ui.theme.Typography
+import uk.ac.tees.w9354187.teesweatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SavedLocation
+import uk.ac.tees.w9354187.teesweatherapp.presentation.components.ManageLocationTopAppBar
+import uk.ac.tees.w9354187.teesweatherapp.presentation.ui.theme.Typography
 import kotlin.math.roundToInt
 
 @Composable

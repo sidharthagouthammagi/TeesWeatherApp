@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.manageLocation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.manageLocation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect

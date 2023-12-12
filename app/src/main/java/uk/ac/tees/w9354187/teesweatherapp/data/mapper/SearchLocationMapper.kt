@@ -1,7 +1,7 @@
-package com.anshtya.weatherapp.data.mapper
+package uk.ac.tees.w9354187.teesweatherapp.data.mapper
 
-import com.anshtya.weatherapp.data.remote.model.NetworkSearchLocation
-import com.anshtya.weatherapp.domain.model.SearchLocation
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkSearchLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SearchLocation
 
 fun NetworkSearchLocation.toExternalModel() = SearchLocation(
     name = name,

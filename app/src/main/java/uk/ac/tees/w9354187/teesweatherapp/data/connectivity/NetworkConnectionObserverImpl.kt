@@ -1,12 +1,12 @@
-package com.anshtya.weatherapp.data.connectivity
+package uk.ac.tees.w9354187.teesweatherapp.data.connectivity
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.Network
 import android.net.NetworkCapabilities
 import android.net.NetworkRequest
-import com.anshtya.weatherapp.domain.connectivity.NetworkConnectionObserver
-import com.anshtya.weatherapp.domain.connectivity.NetworkStatus
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkConnectionObserver
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkStatus
 import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.callbackFlow
 import javax.inject.Inject

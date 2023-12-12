@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.data.local
+package uk.ac.tees.w9354187.teesweatherapp.data.local
 
 import androidx.room.DeleteColumn
 import androidx.room.migration.AutoMigrationSpec

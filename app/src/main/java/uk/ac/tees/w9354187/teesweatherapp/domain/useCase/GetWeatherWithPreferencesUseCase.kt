@@ -1,8 +1,8 @@
-package com.anshtya.weatherapp.domain.useCase
+package uk.ac.tees.w9354187.teesweatherapp.domain.useCase
 
-import com.anshtya.weatherapp.domain.model.WeatherWithPreferences
-import com.anshtya.weatherapp.domain.repository.UserDataRepository
-import com.anshtya.weatherapp.domain.repository.WeatherRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherWithPreferences
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.UserDataRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.WeatherRepository
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.combine
 import javax.inject.Inject

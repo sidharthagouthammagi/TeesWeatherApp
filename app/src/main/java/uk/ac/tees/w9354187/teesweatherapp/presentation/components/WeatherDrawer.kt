@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.components
+package uk.ac.tees.w9354187.teesweatherapp.presentation.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,8 +22,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.anshtya.weatherapp.R
-import com.anshtya.weatherapp.domain.model.Weather
+import uk.ac.tees.w9354187.teesweatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Weather
 
 @Composable
 fun WeatherDrawer(

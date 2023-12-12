@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.weather
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.weather
 
 import android.widget.Toast
 import androidx.annotation.DrawableRes
@@ -43,12 +43,12 @@ import androidx.compose.ui.unit.dp
 import com.airbnb.lottie.compose.LottieAnimation
 import com.airbnb.lottie.compose.LottieCompositionSpec
 import com.airbnb.lottie.compose.rememberLottieComposition
-import com.anshtya.weatherapp.R
-import com.anshtya.weatherapp.domain.model.Weather
-import com.anshtya.weatherapp.domain.model.WeatherForecast
-import com.anshtya.weatherapp.domain.model.WeatherType
-import com.anshtya.weatherapp.presentation.components.WeatherTopAppBar
-import com.anshtya.weatherapp.util.getDayNameFromEpoch
+import uk.ac.tees.w9354187.teesweatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Weather
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherForecast
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherType
+import uk.ac.tees.w9354187.teesweatherapp.presentation.components.WeatherTopAppBar
+import uk.ac.tees.w9354187.teesweatherapp.util.getDayNameFromEpoch
 import kotlin.math.roundToInt
 
 @Composable

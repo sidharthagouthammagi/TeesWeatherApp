@@ -1,6 +1,6 @@
-package com.anshtya.weatherapp.data.local.model
+package uk.ac.tees.w9354187.teesweatherapp.data.local.model
 
-import com.anshtya.weatherapp.domain.model.WeatherCondition
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherCondition
 
 data class HourModel(
     val chanceOfRain: Int,

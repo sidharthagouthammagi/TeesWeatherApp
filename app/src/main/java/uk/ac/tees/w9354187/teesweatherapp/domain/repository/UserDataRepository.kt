@@ -1,6 +1,6 @@
-package com.anshtya.weatherapp.domain.repository
+package uk.ac.tees.w9354187.teesweatherapp.domain.repository
 
-import com.anshtya.weatherapp.domain.model.UserData
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.UserData
 import kotlinx.coroutines.flow.Flow
 
 interface UserDataRepository {

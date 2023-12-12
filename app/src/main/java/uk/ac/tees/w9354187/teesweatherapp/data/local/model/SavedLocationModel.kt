@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.data.local.model
+package uk.ac.tees.w9354187.teesweatherapp.data.local.model
 
 data class SavedLocationModel(
     val id: String,

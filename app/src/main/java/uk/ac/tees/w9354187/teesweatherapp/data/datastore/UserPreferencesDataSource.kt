@@ -1,10 +1,10 @@
-package com.anshtya.weatherapp.data.datastore
+package uk.ac.tees.w9354187.teesweatherapp.data.datastore
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
-import com.anshtya.weatherapp.domain.model.UserData
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.UserData
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject

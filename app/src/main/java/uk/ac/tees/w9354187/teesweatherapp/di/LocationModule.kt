@@ -1,7 +1,7 @@
-package com.anshtya.weatherapp.di
+package uk.ac.tees.w9354187.teesweatherapp.di
 
-import com.anshtya.weatherapp.data.location.LocationTrackerImpl
-import com.anshtya.weatherapp.domain.location.LocationTracker
+import uk.ac.tees.w9354187.teesweatherapp.data.location.LocationTrackerImpl
+import uk.ac.tees.w9354187.teesweatherapp.domain.location.LocationTracker
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

@@ -1,19 +1,19 @@
-package com.anshtya.weatherapp.data.mapper
+package uk.ac.tees.w9354187.teesweatherapp.data.mapper
 
-import com.anshtya.weatherapp.domain.model.Astro
-import com.anshtya.weatherapp.domain.model.Day
-import com.anshtya.weatherapp.data.local.model.HourModel
-import com.anshtya.weatherapp.data.local.entity.CurrentWeatherEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherForecastEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherLocationEntity
-import com.anshtya.weatherapp.data.remote.model.NetworkAstro
-import com.anshtya.weatherapp.data.remote.model.NetworkCurrentWeather
-import com.anshtya.weatherapp.data.remote.model.NetworkDay
-import com.anshtya.weatherapp.data.remote.model.NetworkForecastDay
-import com.anshtya.weatherapp.data.remote.model.NetworkHour
-import com.anshtya.weatherapp.data.remote.model.NetworkWeatherLocation
-import com.anshtya.weatherapp.domain.model.Hour
-import com.anshtya.weatherapp.domain.model.WeatherType
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Astro
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Day
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.HourModel
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.CurrentWeatherEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherForecastEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherLocationEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkAstro
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkCurrentWeather
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkDay
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkForecastDay
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkHour
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.model.NetworkWeatherLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Hour
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherType
 
 fun NetworkWeatherLocation.toEntity(locationUrl: String) = WeatherLocationEntity(
     id = locationUrl,

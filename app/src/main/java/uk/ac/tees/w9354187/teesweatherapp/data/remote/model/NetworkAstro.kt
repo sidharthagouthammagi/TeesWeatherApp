@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.data.remote.model
+package uk.ac.tees.w9354187.teesweatherapp.data.remote.model
 
 data class NetworkAstro(
     val sunrise: String,

@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.addLocation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.addLocation
 
 import android.Manifest
 import android.app.Activity.RESULT_OK
@@ -43,9 +43,9 @@ import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.anshtya.weatherapp.R
-import com.anshtya.weatherapp.presentation.ui.theme.Typography
-import com.anshtya.weatherapp.util.locationRequest
+import uk.ac.tees.w9354187.teesweatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.presentation.ui.theme.Typography
+import uk.ac.tees.w9354187.teesweatherapp.util.locationRequest
 
 @Composable
 fun AddLocationScreen(

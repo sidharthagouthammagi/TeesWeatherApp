@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.settings
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.settings
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -25,7 +25,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
-import com.anshtya.weatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.R
 
 @Composable
 fun SettingsScreen(

@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.screens.weather
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.weather
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.material3.DrawerState
@@ -10,7 +10,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
-import com.anshtya.weatherapp.presentation.components.WeatherDrawer
+import uk.ac.tees.w9354187.teesweatherapp.presentation.components.WeatherDrawer
 import kotlinx.coroutines.launch
 
 @Composable

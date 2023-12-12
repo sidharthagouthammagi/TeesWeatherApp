@@ -1,8 +1,8 @@
-package com.anshtya.weatherapp.data.repository
+package uk.ac.tees.w9354187.teesweatherapp.data.repository
 
-import com.anshtya.weatherapp.domain.model.UserData
-import com.anshtya.weatherapp.data.datastore.UserPreferencesDataSource
-import com.anshtya.weatherapp.domain.repository.UserDataRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.UserData
+import uk.ac.tees.w9354187.teesweatherapp.data.datastore.UserPreferencesDataSource
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.UserDataRepository
 import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 

@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.data.local
+package uk.ac.tees.w9354187.teesweatherapp.data.local
 
 import androidx.room.AutoMigration
 import androidx.room.Database
@@ -6,10 +6,10 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.room.migration.Migration
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.anshtya.weatherapp.data.local.dao.WeatherDao
-import com.anshtya.weatherapp.data.local.entity.CurrentWeatherEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherForecastEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherLocationEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.dao.WeatherDao
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.CurrentWeatherEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherForecastEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherLocationEntity
 
 @Database(
     entities = [WeatherLocationEntity::class, CurrentWeatherEntity::class, WeatherForecastEntity::class],

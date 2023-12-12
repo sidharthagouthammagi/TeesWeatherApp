@@ -1,8 +1,8 @@
-package com.anshtya.weatherapp.data.mapper
+package uk.ac.tees.w9354187.teesweatherapp.data.mapper
 
-import com.anshtya.weatherapp.data.local.model.SavedLocationModel
-import com.anshtya.weatherapp.domain.model.SavedLocation
-import com.anshtya.weatherapp.domain.model.WeatherType
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.SavedLocationModel
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SavedLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherType
 
 fun SavedLocationModel.toExternalModel() = SavedLocation(
     id = id,

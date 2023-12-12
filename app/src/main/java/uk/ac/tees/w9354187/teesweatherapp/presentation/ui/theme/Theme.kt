@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.ui.theme
+package uk.ac.tees.w9354187.teesweatherapp.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

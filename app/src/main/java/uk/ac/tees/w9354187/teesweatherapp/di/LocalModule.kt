@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.di
+package uk.ac.tees.w9354187.teesweatherapp.di
 
 import android.content.Context
 import androidx.datastore.core.DataStore
@@ -6,11 +6,11 @@ import androidx.datastore.preferences.core.PreferenceDataStoreFactory
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStoreFile
 import androidx.room.Room
-import com.anshtya.weatherapp.data.local.WeatherDatabase
-import com.anshtya.weatherapp.data.local.WeatherDatabase.Companion.MIGRATION_2_3
-import com.anshtya.weatherapp.data.local.WeatherDatabase.Companion.MIGRATION_3_4
-import com.anshtya.weatherapp.data.local.dao.WeatherDao
-import com.anshtya.weatherapp.util.Constants
+import uk.ac.tees.w9354187.teesweatherapp.data.local.WeatherDatabase
+import uk.ac.tees.w9354187.teesweatherapp.data.local.WeatherDatabase.Companion.MIGRATION_2_3
+import uk.ac.tees.w9354187.teesweatherapp.data.local.WeatherDatabase.Companion.MIGRATION_3_4
+import uk.ac.tees.w9354187.teesweatherapp.data.local.dao.WeatherDao
+import uk.ac.tees.w9354187.teesweatherapp.util.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

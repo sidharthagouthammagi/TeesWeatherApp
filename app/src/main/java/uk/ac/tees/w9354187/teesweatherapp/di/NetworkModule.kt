@@ -1,10 +1,10 @@
-package com.anshtya.weatherapp.di
+package uk.ac.tees.w9354187.teesweatherapp.di
 
 import android.content.Context
-import com.anshtya.weatherapp.util.Constants
-import com.anshtya.weatherapp.data.remote.WeatherApi
-import com.anshtya.weatherapp.data.connectivity.NetworkConnectionObserverImpl
-import com.anshtya.weatherapp.domain.connectivity.NetworkConnectionObserver
+import uk.ac.tees.w9354187.teesweatherapp.util.Constants
+import uk.ac.tees.w9354187.teesweatherapp.data.remote.WeatherApi
+import uk.ac.tees.w9354187.teesweatherapp.data.connectivity.NetworkConnectionObserverImpl
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkConnectionObserver
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

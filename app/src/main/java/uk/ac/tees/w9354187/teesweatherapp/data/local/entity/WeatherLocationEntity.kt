@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.data.local.entity
+package uk.ac.tees.w9354187.teesweatherapp.data.local.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

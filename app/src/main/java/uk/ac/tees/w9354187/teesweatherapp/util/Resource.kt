@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.util
+package uk.ac.tees.w9354187.teesweatherapp.util
 
 sealed class Resource<T> {
     data class Success<T>(val data: T): Resource<T>()

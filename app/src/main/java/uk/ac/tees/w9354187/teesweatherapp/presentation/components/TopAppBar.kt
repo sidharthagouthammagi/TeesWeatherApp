@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.components
+package uk.ac.tees.w9354187.teesweatherapp.presentation.components
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
@@ -13,7 +13,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.anshtya.weatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

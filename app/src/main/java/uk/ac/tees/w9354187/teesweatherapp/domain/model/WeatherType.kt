@@ -1,7 +1,7 @@
-package com.anshtya.weatherapp.domain.model
+package uk.ac.tees.w9354187.teesweatherapp.domain.model
 
 import androidx.annotation.DrawableRes
-import com.anshtya.weatherapp.R
+import uk.ac.tees.w9354187.teesweatherapp.R
 
 sealed class WeatherType(
     val weatherDescription: String,

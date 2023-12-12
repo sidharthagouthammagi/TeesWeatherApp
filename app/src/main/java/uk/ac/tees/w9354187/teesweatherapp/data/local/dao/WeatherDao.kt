@@ -1,11 +1,11 @@
-package com.anshtya.weatherapp.data.local.dao
+package uk.ac.tees.w9354187.teesweatherapp.data.local.dao
 
 import androidx.room.*
-import com.anshtya.weatherapp.data.local.entity.CurrentWeatherEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherForecastEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherLocationEntity
-import com.anshtya.weatherapp.data.local.model.SavedLocationModel
-import com.anshtya.weatherapp.data.local.model.WeatherModel
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.CurrentWeatherEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherForecastEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherLocationEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.SavedLocationModel
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.WeatherModel
 import kotlinx.coroutines.flow.Flow
 
 @Dao

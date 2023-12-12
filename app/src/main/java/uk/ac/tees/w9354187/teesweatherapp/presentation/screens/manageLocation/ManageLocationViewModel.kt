@@ -1,10 +1,10 @@
-package com.anshtya.weatherapp.presentation.screens.manageLocation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.manageLocation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.anshtya.weatherapp.domain.model.WeatherWithPreferences
-import com.anshtya.weatherapp.domain.repository.WeatherRepository
-import com.anshtya.weatherapp.domain.useCase.GetSavedLocationsWithPreferencesUseCase
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherWithPreferences
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.WeatherRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.useCase.GetSavedLocationsWithPreferencesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

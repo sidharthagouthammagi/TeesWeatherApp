@@ -1,8 +1,8 @@
-package com.anshtya.weatherapp.data.local
+package uk.ac.tees.w9354187.teesweatherapp.data.local
 
 import androidx.room.TypeConverter
-import com.anshtya.weatherapp.domain.model.Astro
-import com.anshtya.weatherapp.data.local.model.HourModel
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Astro
+import uk.ac.tees.w9354187.teesweatherapp.data.local.model.HourModel
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types

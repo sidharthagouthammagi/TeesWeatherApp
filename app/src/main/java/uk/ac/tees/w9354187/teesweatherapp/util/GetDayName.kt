@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.util
+package uk.ac.tees.w9354187.teesweatherapp.util
 
 import java.text.SimpleDateFormat
 import java.util.Date

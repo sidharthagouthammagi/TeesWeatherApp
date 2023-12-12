@@ -1,9 +1,9 @@
-package com.anshtya.weatherapp.domain.repository
+package uk.ac.tees.w9354187.teesweatherapp.domain.repository
 
-import com.anshtya.weatherapp.domain.model.SavedLocation
-import com.anshtya.weatherapp.domain.model.SearchLocation
-import com.anshtya.weatherapp.domain.model.Weather
-import com.anshtya.weatherapp.util.Resource
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SavedLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.SearchLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.Weather
+import uk.ac.tees.w9354187.teesweatherapp.util.Resource
 import kotlinx.coroutines.flow.Flow
 
 interface WeatherRepository {

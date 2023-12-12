@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.domain.model
+package uk.ac.tees.w9354187.teesweatherapp.domain.model
 
 data class WeatherLocation(
     val id: String,

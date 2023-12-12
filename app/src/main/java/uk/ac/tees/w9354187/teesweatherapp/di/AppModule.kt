@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.di
+package uk.ac.tees.w9354187.teesweatherapp.di
 
 import android.content.Context
 import com.google.android.gms.location.FusedLocationProviderClient

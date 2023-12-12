@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.navigation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.navigation
 
 import androidx.navigation.NavType
 import androidx.navigation.navArgument

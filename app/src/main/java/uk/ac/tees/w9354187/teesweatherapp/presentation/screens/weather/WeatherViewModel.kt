@@ -1,13 +1,13 @@
-package com.anshtya.weatherapp.presentation.screens.weather
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.weather
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.anshtya.weatherapp.domain.model.WeatherWithPreferences
-import com.anshtya.weatherapp.domain.repository.WeatherRepository
-import com.anshtya.weatherapp.domain.useCase.GetWeatherWithPreferencesUseCase
-import com.anshtya.weatherapp.util.Resource
-import com.anshtya.weatherapp.domain.connectivity.NetworkConnectionObserver
-import com.anshtya.weatherapp.domain.connectivity.NetworkStatus
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherWithPreferences
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.WeatherRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.useCase.GetWeatherWithPreferencesUseCase
+import uk.ac.tees.w9354187.teesweatherapp.util.Resource
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkConnectionObserver
+import uk.ac.tees.w9354187.teesweatherapp.domain.connectivity.NetworkStatus
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

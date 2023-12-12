@@ -1,11 +1,11 @@
-package com.anshtya.weatherapp.data.local.entity
+package uk.ac.tees.w9354187.teesweatherapp.data.local.entity
 
 import androidx.room.Embedded
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import com.anshtya.weatherapp.domain.model.WeatherCondition
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherCondition
 
 @Entity(
     tableName = "current_weather",

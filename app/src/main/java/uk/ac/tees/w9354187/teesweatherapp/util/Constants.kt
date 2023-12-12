@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.util
+package uk.ac.tees.w9354187.teesweatherapp.util
 
 class Constants {
 

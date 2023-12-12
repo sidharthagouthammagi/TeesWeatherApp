@@ -1,4 +1,4 @@
-package com.anshtya.weatherapp.presentation.navigation
+package uk.ac.tees.w9354187.teesweatherapp.presentation.navigation
 
 import androidx.compose.animation.core.LinearOutSlowInEasing
 import androidx.compose.animation.core.tween
@@ -11,11 +11,11 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.anshtya.weatherapp.presentation.MainActivity
-import com.anshtya.weatherapp.presentation.screens.addLocation.AddLocationRoute
-import com.anshtya.weatherapp.presentation.screens.manageLocation.ManageLocationRoute
-import com.anshtya.weatherapp.presentation.screens.settings.SettingsRoute
-import com.anshtya.weatherapp.presentation.screens.weather.WeatherRoute
+import uk.ac.tees.w9354187.teesweatherapp.presentation.MainActivity
+import uk.ac.tees.w9354187.teesweatherapp.presentation.screens.addLocation.AddLocationRoute
+import uk.ac.tees.w9354187.teesweatherapp.presentation.screens.manageLocation.ManageLocationRoute
+import uk.ac.tees.w9354187.teesweatherapp.presentation.screens.settings.SettingsRoute
+import uk.ac.tees.w9354187.teesweatherapp.presentation.screens.weather.WeatherRoute
 
 @Composable
 fun WeatherNavigation(

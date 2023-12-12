@@ -1,12 +1,12 @@
-package com.anshtya.weatherapp.data.mapper
+package uk.ac.tees.w9354187.teesweatherapp.data.mapper
 
-import com.anshtya.weatherapp.data.local.entity.CurrentWeatherEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherForecastEntity
-import com.anshtya.weatherapp.data.local.entity.WeatherLocationEntity
-import com.anshtya.weatherapp.domain.model.CurrentWeather
-import com.anshtya.weatherapp.domain.model.WeatherForecast
-import com.anshtya.weatherapp.domain.model.WeatherLocation
-import com.anshtya.weatherapp.domain.model.WeatherType
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.CurrentWeatherEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherForecastEntity
+import uk.ac.tees.w9354187.teesweatherapp.data.local.entity.WeatherLocationEntity
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.CurrentWeather
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherForecast
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherLocation
+import uk.ac.tees.w9354187.teesweatherapp.domain.model.WeatherType
 
 fun CurrentWeatherEntity.toExternalModel() = CurrentWeather(
     locationId = locationId,

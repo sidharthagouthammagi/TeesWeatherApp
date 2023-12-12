@@ -1,11 +1,11 @@
-package com.anshtya.weatherapp.data.location
+package uk.ac.tees.w9354187.teesweatherapp.data.location
 
 import android.Manifest
 import android.app.Application
 import android.content.pm.PackageManager
 import android.location.Location
 import androidx.core.content.ContextCompat
-import com.anshtya.weatherapp.domain.location.LocationTracker
+import uk.ac.tees.w9354187.teesweatherapp.domain.location.LocationTracker
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.Priority
 import com.google.android.gms.tasks.CancellationTokenSource

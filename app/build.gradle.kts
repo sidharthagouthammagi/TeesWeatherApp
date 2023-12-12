@@ -117,5 +117,8 @@ android {
 
         //Lottie
         implementation(libs.lottie.compose)
+
+
+
     }
 }

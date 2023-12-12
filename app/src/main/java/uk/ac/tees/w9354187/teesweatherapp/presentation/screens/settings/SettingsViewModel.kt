@@ -1,8 +1,8 @@
-package com.anshtya.weatherapp.presentation.screens.settings
+package uk.ac.tees.w9354187.teesweatherapp.presentation.screens.settings
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.anshtya.weatherapp.domain.repository.UserDataRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.UserDataRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map

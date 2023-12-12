@@ -1,9 +1,9 @@
-package com.anshtya.weatherapp.di
+package uk.ac.tees.w9354187.teesweatherapp.di
 
-import com.anshtya.weatherapp.data.repository.UserDataRepositoryImpl
-import com.anshtya.weatherapp.data.repository.WeatherRepositoryImpl
-import com.anshtya.weatherapp.domain.repository.UserDataRepository
-import com.anshtya.weatherapp.domain.repository.WeatherRepository
+import uk.ac.tees.w9354187.teesweatherapp.data.repository.UserDataRepositoryImpl
+import uk.ac.tees.w9354187.teesweatherapp.data.repository.WeatherRepositoryImpl
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.UserDataRepository
+import uk.ac.tees.w9354187.teesweatherapp.domain.repository.WeatherRepository
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
